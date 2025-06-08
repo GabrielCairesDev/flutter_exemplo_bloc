@@ -1,0 +1,95 @@
+# === Miscellaneous ===
+*.class
+*.log
+*.pyc
+*.swp
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.sqlite
+*.db
+*.pid
+*.seed
+*.pid.lock
+
+# === OS generated files ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# === Editor folders ===
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.atom/
+.history
+
+# === Build and dependency folders ===
+/build/
+.dart_tool/
+.pub/
+/.melose/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.migrate_working_dir/
+*.lock
+
+# === iOS / macOS ===
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Runner.xcworkspace/
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/Podfile.lock
+**/macos/Runner.xcworkspace/
+
+# === Android ===
+/android/.gradle/
+/android/captures/
+/android/.idea/
+/android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/build/
+/android/.settings/
+/android/.externalNativeBuild/
+/android/.cxx/
+
+# === Flutter doc ===
+**/doc/api/
+
+# === Pub cache (usually global but might appear local em casos específicos) ===
+.pub-cache/
+
+# === Output/Artifact files ===
+*.symbols
+*.map.json
+
+# === VS Code (descomente se quiser ignorar) ===
+#.vscode/
+.env
